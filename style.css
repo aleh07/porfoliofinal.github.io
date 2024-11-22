@@ -1,0 +1,213 @@
+
+* { margin: 0%; padding: 2px;font-family: sans-serif; }
+
+header{
+    margin:0%;
+    padding: 0%;
+}
+h3{
+    font-weight: bold;
+    color: blueviolet;  
+    text-decoration:underline;
+    
+
+     
+   
+}
+.Logo{
+    color :blueviolet;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.MenuNavegador{
+
+    background: linear-gradient(
+        50deg,
+        rgba(40,42,55,1)50%,
+        rgba(40,42,55,0.7)),
+         url(media//somos-proya.jpg);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+   
+
+}
+.MenuNavegador a ,ul{
+    color :rgba(137, 43, 226, 0.669); /* Esto hará que el enlace tome el color del texto circundante */
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex; /* Pone a los link en una fila */
+    list-style-type: none; /* Elimina los puntos de la lista */
+    justify-content:space-around; /*separa los link de manera uniforme*/
+    text-decoration: none;
+    transition: background-color 0.3s; /* Transición suave */
+}
+a:hover {
+    color: #fff; /* Color de fondo al pasar el cursor */ }
+
+
+.Contenedor{
+    border:1px solid rgba(137, 43, 226, 0.669);
+    background-color: rgba(0, 0, 0, 0.752); 
+    margin: 0%;
+    padding: 20px;
+    
+}
+.Secciones{
+    
+    margin: 3%;
+    padding: 20px; 
+    border:2px solid rgba(137, 43, 226, 0.669);
+}
+.Perfil{
+
+   display: flex;
+    margin :0%;
+    padding :10px;
+    justify-content: space-around;
+    /* Ajustar el ancho y alto de la imagen */
+ .texto{
+    margin :0%;
+    padding :10px;
+    width: 50%;
+    height: 50%;
+    color: #f4f6f9;
+ }
+   .imgskill {
+    display: flex;
+    margin-bottom:20px;
+    border-radius: 10px;
+    padding:10px;
+    
+    height:80px;
+    width: 80px;
+    }
+    .ImgPerfil{
+        width: 200px;
+        height: 200px;
+        padding: 0px;
+        border:  1px  solid #970ade; /* Borde de las tarjetas */ 
+        box-shadow: 2px 8px 5px rgba(7, 154, 238, 0.14); 
+    }
+
+}
+
+.color-acento{
+    color: blueviolet;
+}
+.Proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+    padding: 10px;
+     justify-content: center; /* Centra horizontalmente */
+      align-items: center; /* Centra verticalmente */
+
+   
+}
+.Carta{
+    margin: 5px;
+    padding: 5px;
+    margin-bottom:20px;
+    border-radius: 10px;
+    color: aliceblue;
+    background: rgba(35, 34, 34, 0.752);
+    border: 1px solid #970ade; /* Borde de las tarjetas */ 
+    box-shadow: 2px 8px 5px rgba(7, 154, 238, 0.14); 
+
+    h5{
+    font-weight: bold;
+    color: blueviolet;   
+}
+
+}
+
+.Secciones{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+  
+}
+.form-content {
+    background: linear-gradient(
+        50deg,
+        rgba(40,42,55,1)50%,
+        rgba(40,42,55,0.7)),
+         url(media//somos-proya.jpg);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         padding :10px;
+         margin:10px;
+         border-radius: 25px;
+         color: #f4f6f9;
+         width: 500px;
+         height: 5o0px;
+        
+      h3{
+        display: flex;
+        justify-content: center;
+      }
+}
+
+
+form{
+    display:flex;
+    flex-direction: column ;
+   
+   
+}
+label{
+    font-size: 17px;
+    color : #959aab;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    padding: 20px;
+    background-color: #333646;
+    border:0px;
+    font-size: 15px;
+    color: #f4f6f9;
+    margin-bottom:20px;
+    border-radius: 10px;
+    
+
+}
+
+:focus{
+    outline: 1px solid blueviolet;
+}
+footer{margin: 0%;
+    padding: 0%;}
+footer .Contenedor .Secciones{
+    
+   
+    i{
+        
+        font-size: 50px; 
+    }
+
+    
+}
+@media (max-width: 768px) {
+    
+    .Perfil {
+       
+        font-size:.7em;
+    }
+    
+    .btn {
+       font-size: small;
+       display: display;
+       align-content: center;
+       margin:  2%;
+       align-items: center;
+       
+
+
+    };
+}
